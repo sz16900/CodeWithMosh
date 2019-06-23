@@ -59,34 +59,3 @@ num = [1, 2, 44, 5, 6, 88, 0]
 # doesnt modify the original list, it returns a new list
 print(sorted(num, reverse=True))
 print(num)
-
-
-# a list of tuples and how to sort them
-# The ugly way
-items = [
-    ("product1", 99),
-    ("product11", 995),
-    ("product12", 996),
-    ("product134", 899),
-]
-
-
-def sort_item(item):
-    return item[1]
-
-
-items.sort(key=sort_item)
-print(items)
-
-# The pretty way by using Lambda functions
-items = [
-    ("product1", 99),
-    ("product11", 995),
-    ("product12", 996),
-    ("product134", 899),
-]
-items.sort(key=lambda item: item[1])  # key=lambda parameter:expression
-print(items)
-
-
-# maps
