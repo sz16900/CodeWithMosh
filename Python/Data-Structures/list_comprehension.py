@@ -18,3 +18,12 @@ prices = [item[1] for item in items]
 filtered = [item for item in items if item[1] >= 10]
 print(prices)
 print(filtered)
+
+
+# zip
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+print(list(zip(list1, list2)))
+
+
+#
