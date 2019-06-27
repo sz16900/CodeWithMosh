@@ -1,5 +1,5 @@
 # sets use curly braces and dont repeat
-# unordered collection of itwms, so cant access them using index
+# unordered collection of items, so cant access them using index
 
 
 numbers = [1, 1, 2, 3, 4]

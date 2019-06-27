@@ -26,3 +26,21 @@ for key in point:
 for key, value in point.items():
     print(key, value)
 # this last method returns a tuple which can be unpacked
+
+
+# dictonary comprehensions
+values = []
+for x in range(5):
+    values.append(x * 2)
+
+# however, we can use either a map or comprehension to
+# make it cleaner
+myList = [x * 2 for x in range(5)]  # <- list
+print(type(myList))
+print(myList)
+mySet = {x * 2 for x in range(5)}  # <- set
+print(type(mySet))
+print(mySet)
+myDic = {x: x * 2 for x in range(5)}  # <- dic
+print(type(myDic))
+print(myDic)
