@@ -1,4 +1,6 @@
 # CodeWithMosh
 Full Stack MERN courses with Mosh...
 Bring the other files as well...
+Python
+Sql
 
