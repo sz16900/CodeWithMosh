@@ -1,4 +1,5 @@
 # All Objects should have at least one parameters which we can cal self
+# Objects are dynamic in Python
 
 
 class Point:
