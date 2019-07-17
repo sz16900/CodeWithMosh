@@ -12,6 +12,6 @@ from pathlib import Path
 
 # then...
 
-datanalysis = Path("movies.json",).read_text()
+data = Path("movies.json",).read_text()
 movies = json.loads(data)
 print(movies)
